@@ -1,7 +1,6 @@
 html {
     overflow: scroll;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -24,10 +23,11 @@ body{
 }
 
 #mainContent {
+    clear: both;
+    overflow: auto;
     width: 960px;
     color:#777777;
     background: #fff;
-    padding: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #ffffff;
     margin: 10px auto;
@@ -38,8 +38,31 @@ h2 {
     padding: 15px;
     border-bottom: 2px #666 solid;
 }
-#picture {
-    float: left;
+#contactForm {
     padding: 10px;
+    line-height: 0;
 }
-
+button {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    color: #fff;
+    background: #4aaaa5;
+    line-height: 0;
+}
+h5 {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+#contactForm {
+    border: #ddd 1px solid;
+   margin: 10px;
+}
+textarea {
+    width: 100%;
+}
+input{
+    width:100%;
+    line-height: 1.8;
+}

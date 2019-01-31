@@ -1,0 +1,56 @@
+#top {
+    background: #fff;
+    color: #777777;
+    width: 100%;
+    border-bottom: #cccccc 2px solid;
+}
+#navigation{
+    width: 960px;
+    color: #777777;
+    margin: 0 auto;
+    height: 75px;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+a:link { color: #777777;
+    text-decoration: none;
+}
+a:visited { color: #777777; }
+a:hover { color: pink; }
+a:active { color: yellow; }
+
+h1{
+    margin-top: 0;
+    margin-left: 0;
+    background: #4aaaa5; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#name{
+    width:30%;
+    float: left;
+
+}
+#about {
+    width: 13%;
+    float: right;
+    margin: 0 6px;
+    text-align: center;
+    border-right: 1px solid;
+
+}
+
+#contact {
+    width: 13%;
+    float: right;
+    margin: 0 6px;
+
+    }
+#portfolio {
+    width: 13%;
+    float: right;
+    border-right: 1px solid;
+    margin: 0 10px 0 0;
+    text-align: center;
+
+}
