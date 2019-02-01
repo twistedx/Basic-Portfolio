@@ -41,6 +41,8 @@ h2 {
 #contactForm {
     padding: 10px;
     line-height: 0;
+    border: #ddd 1px solid;
+    margin: 10px;
 }
 button {
     height: 50px;
@@ -54,10 +56,6 @@ h5 {
     color: #fff;
     text-align: center;
     font-size: 15px;
-}
-#contactForm {
-    border: #ddd 1px solid;
-   margin: 10px;
 }
 textarea {
     width: 100%;
