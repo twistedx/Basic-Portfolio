@@ -48,4 +48,64 @@ a {
     margin-top: 25px; 
 
 }
-.stuff a:last-child{border-right: 0;}
+.stuff a:last-child{
+    border-right: 0;}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+
+    #top{
+      /* Box-model */
+      width: 100%;
+        
+    }
+    .stuff{
+        float: left;    
+    }
+    #navigation{
+      width: 700px;
+      height: 64px;  
+    }
+    h1{
+    font-size: 16px;
+    }
+    a { 
+    font-size: 14px;
+   padding: 2px;
+   padding-right: 3px;
+   margin-right: 0px;
+
+   /* margin:10px ; */
+   border-right: 1px solid;
+
+    }
+  }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+        #top{
+            /* Box-model */
+            width: 100%;
+              
+          }
+          .stuff{
+              float: right;    
+          }
+          #navigation{
+            width: 700px;
+            height: 64px;  
+          }
+          h1{
+          font-size: 16px;
+          }
+          a { 
+          font-size: 16px;
+         padding: 5px;
+         padding-right: 10px;
+         margin-right: 10px;
+      
+         /* margin:10px ; */
+         border-right: 1px solid;
+      
+          }
+    
+}
+    
